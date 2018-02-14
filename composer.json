@@ -1,0 +1,31 @@
+{
+    "name": "ruwork/skolkovo-client",
+    "description": "Skolkovo API Client",
+    "type": "library",
+    "keywords": ["Skolkovo", "api-client", "psr7", "httplug"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Valentin Udaltsov", "email": "udaltsov@ruvents.com"}
+    ],
+    "require": {
+        "php": "^7.1",
+        "ruvents/abstract-api-client": "^0.19.0"
+    },
+    "require-dev": {
+        "guzzlehttp/psr7": "^1.0",
+        "php-http/curl-client": "^1.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ruwork\\SkolkovoClient\\": "src/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
