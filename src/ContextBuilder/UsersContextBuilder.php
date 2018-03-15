@@ -6,6 +6,7 @@ namespace Ruwork\SkolkovoClient\ContextBuilder;
 
 /**
  * @method $this setEmailAddress(string $emailAddress)
+ * @method $this setUsernames(string $userName)
  */
 class UsersContextBuilder extends AbstractContextBuilder
 {
