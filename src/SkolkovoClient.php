@@ -16,7 +16,7 @@ use Ruwork\SkolkovoClient\Definition\SkolkovoDefinition;
  * @method ContextBuilder\Oauth\TokenPasswordContextBuilder oauthTokenPassword()
  * @method ContextBuilder\Oauth\TokenRefreshContextBuilder oauthTokenRefresh()
  */
-class SkolkovoClient extends AbstractApiClient
+final class SkolkovoClient extends AbstractApiClient
 {
     public function __construct(array $defaultContext = [], $extensions = [], SkolkovoDefinition $definition = null)
     {
